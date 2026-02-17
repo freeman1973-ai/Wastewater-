@@ -86,7 +86,7 @@ The contact form uses Formspree. To activate it:
 1. Sign up at https://formspree.io
 2. Create a new form
 3. Copy your form ID
-4. Edit `index.html` line 165:
+4. Edit `index.html` line 171:
    - Replace `YOUR_FORM_ID` with your actual Formspree form ID
    - Example: `https://formspree.io/f/xpwzabcd`
 
