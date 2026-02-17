@@ -1,10 +1,12 @@
 # 🌐 Your Website & Email Information
 
-## 📧 Your Email Address
+## 📧 Your Email Addresses
 
-**Primary Contact Email:** `contact@jasonfreeman.org`
+**Primary Contact Emails:**
+- `contact@jasonfreeman.org`
+- `jason@jasonfreeman.org`
 
-This email is displayed prominently in the Contact section of your website and is linked for easy click-to-email functionality.
+Both email addresses are displayed prominently in the Contact section of your website and are linked for easy click-to-email functionality.
 
 ---
 
@@ -35,11 +37,13 @@ https://freeman1973-ai.github.io/Wastewater-/
 
 ---
 
-### **2. Contact Section with Email**
-![Contact Section](https://github.com/user-attachments/assets/a94fbd8a-f12e-4f7c-b6a6-f4385c725663)
+### **2. Contact Section with Emails**
+![Contact Section](https://github.com/user-attachments/assets/05250ab4-0274-43a2-871a-b7d5ecc77c0a)
 
 **Contact Information Displayed:**
-- **Email:** contact@jasonfreeman.org (clickable mailto link)
+- **Emails:** 
+  - contact@jasonfreeman.org (clickable mailto link)
+  - jason@jasonfreeman.org (clickable mailto link)
 - **Location:** Michigan, USA
 - **Licenses:**
   - Michigan Class A Wastewater Operator
@@ -99,7 +103,9 @@ Your professional website includes these sections:
   - Laboratory Analysis
 
 ### **6. Contact Section**
-- **Email:** contact@jasonfreeman.org ✉️
+- **Emails:** 
+  - contact@jasonfreeman.org ✉️
+  - jason@jasonfreeman.org ✉️
 - Location information
 - License details
 - Contact form for inquiries
@@ -149,8 +155,8 @@ To make your website live and accessible to everyone:
 ## 📧 Email Configuration Notes
 
 **Current Status:**
-- Email address `contact@jasonfreeman.org` is displayed on the website
-- The email is linked with `mailto:` for easy clicking
+- Email addresses `contact@jasonfreeman.org` and `jason@jasonfreeman.org` are displayed on the website
+- Both emails are linked with `mailto:` for easy clicking
 - Contact form is configured (requires Formspree setup to receive form submissions)
 
 **To Activate Contact Form:**
@@ -163,7 +169,9 @@ To make your website live and accessible to everyone:
 
 ## ✅ Summary
 
-**Your Email:** `contact@jasonfreeman.org`
+**Your Emails:** 
+- `contact@jasonfreeman.org`
+- `jason@jasonfreeman.org`
 
 **Your Website Features:**
 - Professional design showcasing your credentials
@@ -181,7 +189,9 @@ To make your website live and accessible to everyone:
 - **Repository:** https://github.com/freeman1973-ai/Wastewater-
 - **Enable Pages:** https://github.com/freeman1973-ai/Wastewater-/settings/pages
 - **View Deployments:** https://github.com/freeman1973-ai/Wastewater-/actions
-- **Email:** contact@jasonfreeman.org
+- **Emails:** 
+  - contact@jasonfreeman.org
+  - jason@jasonfreeman.org
 
 ---
 
