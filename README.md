@@ -47,7 +47,7 @@ To preview the website locally:
 The contact form requires setup with Formspree:
 1. Sign up at https://formspree.io
 2. Create a new form and get your form ID
-3. Update line 171 in `index.html` with your form ID
+3. Update line 172 in `index.html` with your form ID
 
 ## Technologies Used
 
