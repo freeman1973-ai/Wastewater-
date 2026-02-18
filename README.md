@@ -27,14 +27,27 @@ This website showcases professional wastewater treatment services and expertise.
 - `images/` - Wastewater treatment facility images (6 photos)
 - `DEPLOYMENT.md` - Complete deployment guide for JasonFreeman.org
 
-## Deployment
+## 🚀 Quick Start - Enable GitHub Pages
 
-See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions on how to publish this website to JasonFreeman.org.
+**Want your website live in 2 minutes?**
 
-Quick start:
-1. Upload `index.html`, `styles.css`, and `images/` folder to your web hosting
-2. Configure contact form with Formspree (see DEPLOYMENT.md)
-3. Visit https://jasonfreeman.org to see your live website
+👉 **[Read: ENABLE_GITHUB_PAGES.md](ENABLE_GITHUB_PAGES.md)** - Simple step-by-step guide  
+👉 **[Read: GITHUB_PAGES_VISUAL_GUIDE.md](GITHUB_PAGES_VISUAL_GUIDE.md)** - Visual guide with diagrams
+
+**Quick Steps:**
+1. Go to: https://github.com/freeman1973-ai/Wastewater-/settings/pages
+2. Select "GitHub Actions" as source
+3. Wait 1-2 minutes
+4. Visit: https://freeman1973-ai.github.io/Wastewater-/
+
+**Your website will be live!** 🎉
+
+## Other Deployment Options
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for instructions on:
+- Publishing to custom domain (JasonFreeman.org)
+- Traditional web hosting setup
+- Contact form configuration with Formspree
 
 ## Local Preview
 
