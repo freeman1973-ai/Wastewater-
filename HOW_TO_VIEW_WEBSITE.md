@@ -58,10 +58,10 @@ The GitHub Actions workflow (already set up) handles deployment automatically!
 
 ## 🌍 Custom Domain (Optional)
 
-If you want to use **jasonfreeman.org** instead:
+If you want to use your own custom domain:
 
 1. In GitHub repository settings → Pages
-2. Enter `jasonfreeman.org` in the "Custom domain" field
+2. Enter your domain name in the "Custom domain" field
 3. Save
 4. Configure DNS at your domain registrar:
    - Add a CNAME record pointing to `freeman1973-ai.github.io`

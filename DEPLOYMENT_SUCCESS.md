@@ -29,7 +29,7 @@ Your professional wastewater website is ready for deployment! The website includ
    ```
 
 3. **Custom Domain (Optional):**
-   - If you own `jasonfreeman.org`, add a CNAME file with your domain
+   - If you own a custom domain, add a CNAME file with your domain
    - Configure DNS settings in your domain registrar
    - Point to: `freeman1973-ai.github.io`
 
@@ -79,7 +79,6 @@ The GitHub Actions workflow (`.github/workflows/deploy.yml`) automatically deplo
 ### 5. **Contact Section**
 - Contact information with both licenses listed
 - Professional contact form
-- Email: contact@jasonfreeman.org
 - Location: Michigan, USA
 
 ---
@@ -90,7 +89,7 @@ The GitHub Actions workflow (`.github/workflows/deploy.yml`) automatically deplo
 
 1. **Upload via FTP/SFTP:**
    ```
-   Host: ftp.jasonfreeman.org
+   Host: your-hosting-provider.com
    Upload: index.html, styles.css, images/
    ```
 
@@ -99,13 +98,13 @@ The GitHub Actions workflow (`.github/workflows/deploy.yml`) automatically deplo
    - File Manager → public_html
    - Upload all files
 
-### Option B: Deploy to JasonFreeman.org
+### Option B: Deploy to Custom Domain
 
-If you have hosting for jasonfreeman.org:
+If you have hosting for a custom domain:
 
 1. **Via SSH:**
    ```bash
-   ssh user@jasonfreeman.org
+   ssh user@yourserver.com
    cd /var/www/html
    git clone https://github.com/freeman1973-ai/Wastewater-.git temp
    cp -r temp/* .
@@ -147,7 +146,7 @@ To activate the contact form:
 
 1. **Enable GitHub Pages** (Settings → Pages → GitHub Actions)
 2. **Visit your live site** at the URL provided
-3. **Optional:** Set up custom domain (jasonfreeman.org)
+3. **Optional:** Set up custom domain if you have one
 4. **Optional:** Configure Formspree for contact form
 5. **Share your professional website!**
 

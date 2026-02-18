@@ -123,7 +123,7 @@ After enabling:
 ### **Q: What if I see a 404 error?**
 **A:** This is normal before enabling. After enabling, wait 1-2 minutes and refresh.
 
-### **Q: Can I use my own domain (jasonfreeman.org)?**
+### **Q: Can I use my own custom domain?**
 **A:** Yes! After enabling GitHub Pages, you can add a custom domain in the same settings page.
 
 ### **Q: What happens when I update my site?**

@@ -1,6 +1,6 @@
-# Deployment Guide for JasonFreeman.org
+# Deployment Guide for Your Professional Website
 
-This guide explains how to deploy your professional wastewater website to JasonFreeman.org.
+This guide explains how to deploy your professional wastewater website.
 
 ## Website Structure
 
@@ -11,10 +11,18 @@ Your website includes:
 
 ## Deployment Options
 
-### Option 1: FTP/SFTP Upload (Most Common)
+### Option 1: GitHub Pages (Recommended - FREE)
+
+1. Ensure your repository is public
+2. Go to repository Settings → Pages
+3. Under "Source", select **"GitHub Actions"**
+4. Your website will be live at: https://freeman1973-ai.github.io/Wastewater/
+5. See ENABLE_GITHUB_PAGES.md for detailed instructions
+
+### Option 2: FTP/SFTP Upload (Traditional Web Hosting)
 
 1. Connect to your web hosting using an FTP client (like FileZilla):
-   - Host: ftp.jasonfreeman.org (or your hosting provider's FTP address)
+   - Host: Your hosting provider's FTP address
    - Username: Your FTP username
    - Password: Your FTP password
    - Port: 21 (FTP) or 22 (SFTP)
@@ -24,9 +32,9 @@ Your website includes:
    - Upload `styles.css` to the same directory
    - Create an `images` folder and upload all images from the `images/` directory
 
-3. Test your website by visiting https://jasonfreeman.org
+3. Test your website by visiting your domain
 
-### Option 2: cPanel File Manager
+### Option 3: cPanel File Manager
 
 1. Log into your hosting cPanel account
 2. Open "File Manager"
@@ -36,21 +44,11 @@ Your website includes:
    - `styles.css`
    - Create `images` folder and upload all images
 
-### Option 3: GitHub Pages (If using custom domain)
-
-1. Ensure your repository is public
-2. Go to repository Settings → Pages
-3. Select the branch to deploy (usually `main`)
-4. Configure custom domain to `jasonfreeman.org`:
-   - Add CNAME record in your domain DNS settings
-   - Point to your GitHub Pages URL
-5. Enable HTTPS
-
 ### Option 4: Using Git on Server (If SSH access available)
 
 ```bash
 # SSH into your server
-ssh user@jasonfreeman.org
+ssh user@yourserver.com
 
 # Navigate to web root
 cd /var/www/html  # or public_html
@@ -69,14 +67,14 @@ cd ..
 rm -rf temp
 ```
 
-## DNS Configuration (If needed)
+## DNS Configuration (If Using Custom Domain)
 
-If JasonFreeman.org is a new domain or you're changing hosting:
+If you're using a custom domain with your hosting:
 
 1. Log into your domain registrar (where you bought the domain)
 2. Update DNS records:
    - A Record: Point to your hosting IP address
-   - CNAME Record: `www` → `jasonfreeman.org`
+   - CNAME Record: `www` → your primary domain
 3. Wait 24-48 hours for DNS propagation
 
 ## Contact Form Setup
@@ -93,11 +91,11 @@ The contact form uses Formspree. To activate it:
 ## Testing Your Website
 
 After deployment:
-1. Visit https://jasonfreeman.org
+1. Visit your website URL
 2. Check all sections load correctly
 3. Verify images display properly
 4. Test navigation links
-5. Test contact form submission
+5. Test contact form submission (if configured)
 6. Check mobile responsiveness
 
 ## Troubleshooting

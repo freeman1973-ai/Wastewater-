@@ -147,9 +147,6 @@ Once live, visitors will see your complete professional website:
 - Professional captions
 
 ### **5. Contact Section**
-- Two email addresses:
-  - contact@jasonfreeman.org
-  - jason@jasonfreeman.org
 - Location: Michigan, USA
 - Contact form
 - License information

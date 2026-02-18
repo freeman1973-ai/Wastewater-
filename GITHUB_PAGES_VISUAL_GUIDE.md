@@ -82,7 +82,7 @@ GitHub Pages
 │  └─ (Auto-saves when selected)
 │
 └─ Custom domain (optional)
-   └─ [jasonfreeman.org]     ← Add later if you want
+   └─ [your-domain.com]     ← Add later if you want
 ```
 
 ---
@@ -196,7 +196,7 @@ Can't find Settings tab?
 Once your site is live, you can:
 
 1. **Share the URL** with clients and colleagues
-2. **Add custom domain** (optional - jasonfreeman.org)
+2. **Add custom domain** (optional if you have one)
 3. **Update content** (changes auto-deploy in 30-60 seconds)
 4. **Monitor traffic** (GitHub provides basic analytics)
 

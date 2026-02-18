@@ -133,7 +133,7 @@ To get your website online:
 - [ ] Visit https://freeman1973-ai.github.io/Wastewater-/
 
 **Optional: Custom Domain**
-- [ ] If you own jasonfreeman.org, configure DNS
+- [ ] If you own a custom domain, configure DNS
 - [ ] Add CNAME record pointing to freeman1973-ai.github.io
 - [ ] Update custom domain in GitHub Pages settings
 

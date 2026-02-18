@@ -42,12 +42,24 @@ This website showcases professional wastewater treatment services and expertise.
 
 **Your website will be live!** 🎉
 
+## 🌐 Custom Domain Setup
+
+**Want to use your own domain?**
+
+👉 **[Read: CUSTOM_DOMAIN_SETUP.md](CUSTOM_DOMAIN_SETUP.md)** - Complete guide to point your domain to GitHub Pages
+
+**Quick overview:**
+1. Configure DNS at your domain registrar (add A and CNAME records)
+2. Add custom domain in GitHub Pages settings
+3. Wait 24-48 hours for DNS propagation
+4. Your domain will display your website!
+
 ## Other Deployment Options
 
 See [DEPLOYMENT.md](DEPLOYMENT.md) for instructions on:
-- Publishing to custom domain (JasonFreeman.org)
-- Traditional web hosting setup
+- Traditional web hosting setup (FTP, cPanel, SSH)
 - Contact form configuration with Formspree
+- Additional deployment options
 
 ## Local Preview
 
