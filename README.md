@@ -42,17 +42,27 @@ This website showcases professional wastewater treatment services and expertise.
 
 **Your website will be live!** 🎉
 
-## 🌐 Custom Domain Setup
+## 🌐 Make Your Website Appear at Your Domain
 
-**Want to use your own domain?**
+**Website looks good? Connect it to your domain!**
 
-👉 **[Read: CUSTOM_DOMAIN_SETUP.md](CUSTOM_DOMAIN_SETUP.md)** - Complete guide to point your domain to GitHub Pages
+### ⚡ Quick Start (5 minutes setup)
+👉 **[Read: DOMAIN_QUICK_START.md](DOMAIN_QUICK_START.md)** - Simple 2-step process to connect your domain
 
-**Quick overview:**
-1. Configure DNS at your domain registrar (add A and CNAME records)
-2. Add custom domain in GitHub Pages settings
-3. Wait 24-48 hours for DNS propagation
-4. Your domain will display your website!
+**The Process:**
+1. **At your domain registrar:** Add DNS records (5 A records pointing to GitHub)
+2. **At GitHub Pages:** Enter your domain in settings
+3. **Wait 1-48 hours:** DNS propagates and your domain shows your website!
+
+### 📖 Detailed Instructions
+👉 **[Read: CUSTOM_DOMAIN_SETUP.md](CUSTOM_DOMAIN_SETUP.md)** - Complete guide with troubleshooting
+
+**Includes:**
+- DNS configuration with exact IP addresses
+- Registrar-specific instructions (GoDaddy, Namecheap, Google Domains, Cloudflare)
+- GitHub Pages custom domain setup
+- SSL/HTTPS automatic enablement
+- Troubleshooting guide
 
 ## Other Deployment Options
 
