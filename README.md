@@ -64,6 +64,21 @@ This website showcases professional wastewater treatment services and expertise.
 - SSL/HTTPS automatic enablement
 - Troubleshooting guide
 
+### 🔍 Check Your DNS Configuration
+👉 **[Read: DNS_CHECK_GUIDE.md](DNS_CHECK_GUIDE.md)** - Verify your DNS is configured correctly
+
+**Tools provided:**
+- Online DNS checker instructions
+- Command-line DNS verification
+- Step-by-step troubleshooting
+- DNS propagation status checking
+- `check-dns.sh` script for automated checking
+
+**Run DNS check:**
+```bash
+./check-dns.sh
+```
+
 ## Other Deployment Options
 
 See [DEPLOYMENT.md](DEPLOYMENT.md) for instructions on:
