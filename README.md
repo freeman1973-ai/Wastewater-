@@ -50,9 +50,19 @@ This website showcases professional wastewater treatment services and expertise.
 👉 **[Read: DOMAIN_QUICK_START.md](DOMAIN_QUICK_START.md)** - Simple 2-step process to connect your domain
 
 **The Process:**
-1. **At your domain registrar:** Add DNS records (5 A records pointing to GitHub)
+1. **At your domain registrar:** Add DNS records (4 A records + 1 CNAME)
+   - A Records: Name field = `@` (or blank)
+   - CNAME Record: Name field = `www`
 2. **At GitHub Pages:** Enter your domain in settings
 3. **Wait 1-48 hours:** DNS propagates and your domain shows your website!
+
+### ❓ Confused About the "Name" Field?
+👉 **[Read: DNS_NAME_FIELD_GUIDE.md](DNS_NAME_FIELD_GUIDE.md)** - Clear explanation of what to enter
+
+**Quick Answer:**
+- For A records: Enter `@` (or leave blank)
+- For CNAME record: Enter `www`
+- Visual examples for all major registrars
 
 ### 📖 Detailed Instructions
 👉 **[Read: CUSTOM_DOMAIN_SETUP.md](CUSTOM_DOMAIN_SETUP.md)** - Complete guide with troubleshooting

@@ -27,32 +27,44 @@ In GitHub Pages settings, enter your domain name
 **Find "DNS Settings" or "DNS Management"**
 
 **Add these 4 A Records:**
+
+**⚠️ For "Name" field: Enter `@` (or leave blank if your registrar asks)**
+
 ```
+Record 1:
 Type: A
-Name: @ (or blank)
+Name: @ (or leave blank) ← Important!
 Value: 185.199.108.153
 
+Record 2:
 Type: A
-Name: @ (or blank)
+Name: @ (or leave blank) ← Same!
 Value: 185.199.109.153
 
+Record 3:
 Type: A
-Name: @ (or blank)
+Name: @ (or leave blank) ← Same!
 Value: 185.199.110.153
 
+Record 4:
 Type: A
-Name: @ (or blank)
+Name: @ (or leave blank) ← Same!
 Value: 185.199.111.153
 ```
 
 **Add 1 CNAME Record for www:**
+
+**⚠️ For "Name" field: Enter `www`**
+
 ```
 Type: CNAME
-Name: www
+Name: www ← Just these 3 letters!
 Value: freeman1973-ai.github.io
 ```
 
 **Save your changes** ✅
+
+**❓ Confused about the "Name" field?** → [DNS_NAME_FIELD_GUIDE.md](DNS_NAME_FIELD_GUIDE.md)
 
 ---
 
