@@ -213,15 +213,31 @@ GitHub Pages Setting:
 
 ### Cloudflare (if using)
 
+**⚠️ CLOUDFLARE IS DIFFERENT:**
+
 1. Log in → Select your domain
 2. DNS tab
-3. Add records
-4. **⚠️ CRITICAL:** Set proxy status to "DNS only" (gray cloud ☁, not orange ☁️)
-   - Click the orange cloud to toggle it to gray
-   - GitHub Pages REQUIRES DNS-only mode to work
-   - Proxied mode will cause DNS verification to fail
+3. Click "Add record"
+4. **For A records:**
+   - Type: A
+   - **Name: Enter your domain** (e.g., `jasonfreeman.org`) - **NOT** `@`
+   - IPv4 address: 185.199.108.153 (repeat for .109, .110, .111)
+   - **⚠️ CRITICAL:** Set proxy status to "DNS only" (gray cloud ☁, not orange ☁️)
+5. **For CNAME record:**
+   - Type: CNAME
+   - Name: www
+   - Target: freeman1973-ai.github.io
+   - Proxy: DNS only (gray cloud ☁)
 
-**📖 See [PROXY_VS_DNS_ONLY.md](PROXY_VS_DNS_ONLY.md) for detailed explanation**
+**Why different?**
+- Cloudflare often won't accept `@` in the Name field
+- Use your full domain name instead: `jasonfreeman.org`
+- Click the orange cloud to toggle it to gray
+- GitHub Pages REQUIRES DNS-only mode to work
+- Proxied mode will cause DNS verification to fail
+
+**📖 See [PROXY_VS_DNS_ONLY.md](PROXY_VS_DNS_ONLY.md) for detailed explanation**  
+**📖 See [DNS_NAME_FIELD_GUIDE.md](DNS_NAME_FIELD_GUIDE.md) for step-by-step Cloudflare instructions**
 
 ---
 

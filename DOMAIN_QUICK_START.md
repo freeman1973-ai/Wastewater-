@@ -180,13 +180,24 @@ For general website deployment:
 3. Add the records above
 
 ### Cloudflare
+
+**⚠️ IMPORTANT: Cloudflare is different!**
+
+If Cloudflare won't accept `@`, use your full domain name:
+
 1. Login → Select domain → DNS
-2. Add the records above
-3. **⚠️ CRITICAL:** Set proxy to "DNS only" (gray cloud ☁, NOT orange ☁️)
+2. Click "Add record"
+3. Type: A
+4. **Name: jasonfreeman.org** ← YOUR domain (not @)
+5. IPv4 address: 185.199.108.153
+6. **⚠️ CRITICAL:** Set proxy to "DNS only" (gray cloud ☁, NOT orange ☁️)
    - Toggle orange cloud to gray for ALL records
    - GitHub Pages requires DNS-only mode
+7. Repeat for other 3 A records with IPs: .109, .110, .111
+8. For CNAME: Name = `www`, Target = freeman1973-ai.github.io
    
-**📖 Why DNS-only? See [PROXY_VS_DNS_ONLY.md](PROXY_VS_DNS_ONLY.md)**
+**📖 Why DNS-only? See [PROXY_VS_DNS_ONLY.md](PROXY_VS_DNS_ONLY.md)**  
+**📖 Cloudflare help: [DNS_NAME_FIELD_GUIDE.md](DNS_NAME_FIELD_GUIDE.md)** - See "Special Instructions for Cloudflare Users"
 
 ---
 
