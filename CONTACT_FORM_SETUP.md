@@ -24,6 +24,12 @@ You have **3 free options** to make your contact form work:
 2. **EmailJS** - Free up to 200 emails/month
 3. **Netlify Forms** (If hosting on Netlify) - 100 submissions/month free
 
+**📧 Using Zoho Mail?** See [ZOHO_EMAIL_SETUP.md](ZOHO_EMAIL_SETUP.md) for:
+- Complete Zoho Mail setup with your domain
+- Contact form integration with Zoho email
+- EmailJS + Zoho SMTP configuration
+- Professional email setup (jason@jasonfreeman.org)
+
 ---
 
 ## 🚀 Option 1: Formspree (Recommended - Easiest)

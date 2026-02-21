@@ -110,11 +110,14 @@ To preview the website locally:
 1. Open `index.html` in your web browser
 2. All features except the contact form will work without a server
 
-## 📧 Fix Contact Form for Emails
+## 📧 Email & Contact Form Setup
 
 **Problem:** Contact form shows `YOUR_FORM_ID` placeholder and doesn't send emails?
 
-👉 **[Read: CONTACT_FORM_SETUP.md](CONTACT_FORM_SETUP.md)** - Complete setup guide with 3 easy options
+### Contact Form Options:
+
+👉 **[CONTACT_FORM_SETUP.md](CONTACT_FORM_SETUP.md)** - Complete setup guide with 3 easy options
+👉 **[ZOHO_EMAIL_SETUP.md](ZOHO_EMAIL_SETUP.md)** - Set up Zoho Mail + integrate with contact form
 
 ### Quick Fix (5 minutes with Formspree):
 
@@ -132,10 +135,13 @@ To preview the website locally:
 5. **Save, deploy, test!**
 
 **Alternative options:**
-- EmailJS (200 emails/month free)
+- EmailJS (200 emails/month free) - Integrates with Zoho SMTP
 - Netlify Forms (if using Netlify hosting)
+- Zoho Mail + EmailJS (direct integration)
 
-**Full guide:** [CONTACT_FORM_SETUP.md](CONTACT_FORM_SETUP.md) - Step-by-step for all options
+**Guides:**
+- [CONTACT_FORM_SETUP.md](CONTACT_FORM_SETUP.md) - General form setup
+- [ZOHO_EMAIL_SETUP.md](ZOHO_EMAIL_SETUP.md) - Professional email with Zoho
 
 ## Technologies Used
 
