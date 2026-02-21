@@ -216,7 +216,12 @@ GitHub Pages Setting:
 1. Log in → Select your domain
 2. DNS tab
 3. Add records
-4. **Important:** Set proxy status to "DNS only" (gray cloud, not orange)
+4. **⚠️ CRITICAL:** Set proxy status to "DNS only" (gray cloud ☁, not orange ☁️)
+   - Click the orange cloud to toggle it to gray
+   - GitHub Pages REQUIRES DNS-only mode to work
+   - Proxied mode will cause DNS verification to fail
+
+**📖 See [PROXY_VS_DNS_ONLY.md](PROXY_VS_DNS_ONLY.md) for detailed explanation**
 
 ---
 

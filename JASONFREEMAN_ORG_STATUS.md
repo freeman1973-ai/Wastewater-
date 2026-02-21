@@ -149,6 +149,11 @@ To make your website accessible at **jasonfreeman.org**, you need to:
    Value: freeman1973-ai.github.io
    ```
 
+   **⚠️ If using Cloudflare:**
+   - Set ALL records to "DNS only" (gray cloud ☁, NOT orange ☁️)
+   - GitHub Pages REQUIRES DNS-only mode
+   - See [PROXY_VS_DNS_ONLY.md](PROXY_VS_DNS_ONLY.md) for details
+
 2. **Configure GitHub Pages**
    - Go to: https://github.com/freeman1973-ai/Wastewater/settings/pages
    - Under "Custom domain", enter: `jasonfreeman.org`
@@ -178,6 +183,11 @@ Then add custom domain later.
 Your repository includes comprehensive guides:
 
 1. **[DOMAIN_QUICK_START.md](DOMAIN_QUICK_START.md)** - Quick 2-step setup
+2. **[CUSTOM_DOMAIN_SETUP.md](CUSTOM_DOMAIN_SETUP.md)** - Complete domain configuration guide
+3. **[PROXY_VS_DNS_ONLY.md](PROXY_VS_DNS_ONLY.md)** - ⚠️ Critical: Proxy vs DNS-only explanation
+4. **[DNS_CHECK_GUIDE.md](DNS_CHECK_GUIDE.md)** - Verify DNS is configured correctly
+5. **[check-dns.sh](check-dns.sh)** - Automated DNS checking script
+6. **[ENABLE_GITHUB_PAGES.md](ENABLE_GITHUB_PAGES.md)** - GitHub Pages setup guide
 2. **[CUSTOM_DOMAIN_SETUP.md](CUSTOM_DOMAIN_SETUP.md)** - Complete domain configuration guide
 3. **[DNS_CHECK_GUIDE.md](DNS_CHECK_GUIDE.md)** - Verify DNS is configured correctly
 4. **[check-dns.sh](check-dns.sh)** - Automated DNS checking script

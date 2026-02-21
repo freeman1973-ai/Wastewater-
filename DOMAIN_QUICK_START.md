@@ -170,7 +170,11 @@ For general website deployment:
 ### Cloudflare
 1. Login → Select domain → DNS
 2. Add the records above
-3. **Important:** Set proxy to "DNS only" (gray cloud)
+3. **⚠️ CRITICAL:** Set proxy to "DNS only" (gray cloud ☁, NOT orange ☁️)
+   - Toggle orange cloud to gray for ALL records
+   - GitHub Pages requires DNS-only mode
+   
+**📖 Why DNS-only? See [PROXY_VS_DNS_ONLY.md](PROXY_VS_DNS_ONLY.md)**
 
 ---
 

@@ -64,6 +64,14 @@ This website showcases professional wastewater treatment services and expertise.
 - SSL/HTTPS automatic enablement
 - Troubleshooting guide
 
+### ⚠️ Cloudflare Users: Proxy vs DNS-Only
+👉 **[Read: PROXY_VS_DNS_ONLY.md](PROXY_VS_DNS_ONLY.md)** - Critical configuration guide
+
+**Important:** If using Cloudflare, you MUST use **DNS-only mode** (gray cloud ☁, not orange ☁️)
+- Orange cloud (proxied) = Won't work ❌
+- Gray cloud (DNS-only) = Works correctly ✅
+- GitHub Pages requires direct DNS resolution
+
 ### 🔍 Check Your DNS Configuration
 👉 **[Read: DNS_CHECK_GUIDE.md](DNS_CHECK_GUIDE.md)** - Verify your DNS is configured correctly
 
