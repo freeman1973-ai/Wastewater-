@@ -42,6 +42,17 @@ This website showcases professional wastewater treatment services and expertise.
 
 **Your website will be live!** 🎉
 
+## 🔍 Check Your Website Status
+
+**Want to see if jasonfreeman.org is live?**
+
+👉 **[Read: JASONFREEMAN_ORG_CHECK_REPORT.md](JASONFREEMAN_ORG_CHECK_REPORT.md)** - Latest website status check
+
+**Quick Status:**
+- Website files: ✅ Ready
+- DNS configuration: ❌ Needs setup
+- Next steps: Configure DNS records at your registrar
+
 ## 🌐 Make Your Website Appear at Your Domain
 
 **Website looks good? Connect it to your domain!**
