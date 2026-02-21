@@ -592,7 +592,7 @@ In Zoho, set up catch-all to receive emails sent to any address at your domain:
 1. Zoho admin → Email Configuration
 2. Click "Catch-All Address"
 3. Set to: jason@jasonfreeman.org
-4. Now `contact@jasonfreeman.org`, `info@jasonfreeman.org`, etc. all go to your inbox!
+4. Now `info@jasonfreeman.org`, `support@jasonfreeman.org`, etc. all go to your inbox!
 
 ### 2. Create Email Aliases
 
@@ -601,7 +601,6 @@ Make multiple addresses point to same inbox:
 1. Zoho admin → Email Accounts → Your account
 2. Click "Email Aliases"
 3. Add aliases:
-   - contact@jasonfreeman.org
    - info@jasonfreeman.org
    - support@jasonfreeman.org
 
