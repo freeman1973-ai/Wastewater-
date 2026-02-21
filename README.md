@@ -53,19 +53,34 @@ This website showcases professional wastewater treatment services and expertise.
 - DNS configuration: ❌ Needs setup
 - Next steps: Configure DNS records at your registrar
 
-## 🌐 Make Your Website Appear at Your Domain
+## 🌐 DNS Configuration for jasonfreeman.org
 
-**Website looks good? Connect it to your domain!**
+**Repository is configured for:** jasonfreeman.org
+
+✅ **CNAME file created** - GitHub Pages recognizes the domain
+
+### 📋 To Make Website Live at jasonfreeman.org
+
+**You need to add 5 DNS records at your domain registrar:**
+
+👉 **[Read: DNS_CONFIG_JASONFREEMAN_ORG.md](DNS_CONFIG_JASONFREEMAN_ORG.md)** - Exact records for jasonfreeman.org
+
+**Quick Reference:**
+- **4 A Records:** Point to GitHub Pages IPs (185.199.108-111.153)
+- **1 CNAME Record:** www → freeman1973-ai.github.io
+
+**Verification:**
+```bash
+./verify-jasonfreeman-dns.sh
+```
 
 ### ⚡ Quick Start (5 minutes setup)
-👉 **[Read: DOMAIN_QUICK_START.md](DOMAIN_QUICK_START.md)** - Simple 2-step process to connect your domain
+👉 **[Read: DOMAIN_QUICK_START.md](DOMAIN_QUICK_START.md)** - Simple 2-step process
 
 **The Process:**
-1. **At your domain registrar:** Add DNS records (4 A records + 1 CNAME)
-   - A Records: Name field = `@` (or blank)
-   - CNAME Record: Name field = `www`
-2. **At GitHub Pages:** Enter your domain in settings
-3. **Wait 1-48 hours:** DNS propagates and your domain shows your website!
+1. **At your domain registrar:** Add DNS records (see DNS_CONFIG_JASONFREEMAN_ORG.md)
+2. **At GitHub Pages:** Verify custom domain shows green checkmark ✓
+3. **Wait 1-48 hours:** DNS propagates and jasonfreeman.org shows your website!
 
 ### ❓ Confused About the "Name" Field?
 👉 **[Read: DNS_NAME_FIELD_GUIDE.md](DNS_NAME_FIELD_GUIDE.md)** - Clear explanation of what to enter
