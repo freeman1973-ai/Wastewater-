@@ -42,6 +42,21 @@ This website showcases professional wastewater treatment services and expertise.
 
 **Your website will be live!** 🎉
 
+## ⚠️ Website Not Opening?
+
+**Problem:** jasonfreeman.org is not opening?
+
+👉 **[Read: WHY_WEBSITE_NOT_OPENING.md](WHY_WEBSITE_NOT_OPENING.md)** - Complete troubleshooting guide
+
+**Most Common Cause:** DNS records not added at registrar
+
+**Quick Fix:**
+1. Add 5 DNS records at your registrar
+2. Wait 30-60 minutes for propagation
+3. Test: https://jasonfreeman.org
+
+**Verify DNS:** `./verify-jasonfreeman-dns.sh`
+
 ## 🔍 Check Your Website Status
 
 **Want to see if jasonfreeman.org is live?**
